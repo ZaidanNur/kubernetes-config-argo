@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
     - name: container-nginx-1
-      image: nginx
+      image: nginx:trixie
       ports:
         - containerPort: 80
